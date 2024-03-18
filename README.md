@@ -22,6 +22,7 @@ Ao final do processamento, qual será o valor da variável SOMA?
 **Resposta: 91**
 
 2-**Arquivo do código no repositório**
+
 def fibonacci(n):
     fib = [0, 1]
     while fib[-1] < n:
@@ -61,10 +62,11 @@ Ao tocar as lâmpadas, aquela que estiver apagada e quente estará conectada ao 
 A lâmpada que estiver apagada e fria estará conectada ao terceiro interruptor
 
 5-**Arquivo do código no repositório**
+
 def inverte(palavra):
     invertida = palavra[::-1]
     return invertida
 
 palavra = input('Digite uma palavra: ')
 invertida = inverte(palavra)
-print(invertida).
+print(invertida)
